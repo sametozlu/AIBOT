@@ -225,7 +225,7 @@ class ImageClassifierBot(discord.Client):
 
 
 def main() -> None:
-    token = "MTM4NjM4Mjc3MzIwMzUwNTIyMg.G_4SLp.sBxhDtSr2xU8886aUWe9sUd8pvAp53umOlcI7k"
+    token = ""
     
     print("🤖 Discord Bot başlatılıyor...")
     print("📁 Model dosyası:", MODEL_FILENAME)
@@ -236,4 +236,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()
